@@ -1,0 +1,50 @@
+.layout {
+	text-align: center;
+	margin: 10px;
+	padding: 10px;
+}
+
+.text-main {
+	font-size: 50px;
+}
+.text-bottom {
+	font-size: 30px;
+}
+
+.text-info {
+	font-size: 20px;
+	
+}
+.text-info2 {
+	font-size: 10px;
+	
+}
+
+.img-size{
+	width: 10%; 
+	height: auto;
+	margin: 10px;'
+	
+}
+
+.box-size {
+	width: 40%; 
+	height: auto;
+	
+}
+.box-size2 {
+	width: 25%; 
+	height: auto;
+	margin: 5px;
+	
+}
+
+.mark-color {
+	background-color: #d9e2ff;
+	box-shadow: 5px 5px 10px #d9e2ff; 
+	
+}
+.text-color {
+	opacity: 0.6;
+	border-radius: 20%;
+}

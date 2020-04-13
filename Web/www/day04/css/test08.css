@@ -1,0 +1,52 @@
+body {
+	text-align: center;
+	
+}
+span {
+	display: inline-block;
+	width: 140px;
+	text-align: center;
+
+}
+.fr {
+	display: inline-block;
+	width: 750px;
+	font-size: 0pt;
+}
+.th > span {
+	border: 1px solid #444444;
+}
+.th > span {
+	font-weight: bold;
+}
+
+div > span:first-child,
+div > span:first-child + span{
+	width: 110px;
+}
+
+div > span:nth-child(4){
+	width: 180px;
+}
+
+.th > span {
+	background-color: gray;
+	color: white;
+}
+
+.tr:nth-child(2n+1) > span {
+	background-color: lightgray;
+}
+div > span {
+	font-size: 12pt;
+}
+.tr:last-child > span {
+	border-bottom: 1px solid #444444;
+}
+.tr > span:first-child {
+	border-left: 1px solid #444444;
+	
+}
+.tr > span:last-child {
+	border-right: 1px solid #444444;
+}

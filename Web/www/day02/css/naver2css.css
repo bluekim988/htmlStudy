@@ -1,0 +1,332 @@
+@charset "UTF-8";
+
+.sbody{
+	background-color: #ededed;
+	width: 770px;
+	height: 1000px;
+}
+
+img{
+	width: 100%;
+	height: 100%;
+}
+
+.sbody-line{
+	width: 738px;
+	height: 852px;
+	margin: 18px 0px 0px 16px;
+	text-align: center;'
+	display: flex;
+	background-color: white;
+}
+.navi{
+	width: 738px;
+	height: 44px;
+	display: flex;
+	margin: 0 auto;
+	background-color: white;
+	border: 1px solid silver;
+}
+
+.navi-font{
+	color: #c4c1bb;
+}
+
+.navi-item1{
+	width: 45px;
+	height: 45px;
+}
+.navi-item-icon{
+	width: 20px;
+	height: 14px;
+	border: 1px solid silver;
+	text-align: center;
+	margin-top: 10px;
+}
+.icon1 {
+	margin: 15px 0px 0px 15px;
+}
+.navi-item2{
+	width: 37.48px;
+	height: 45px;
+	margin-right: 10px;
+	
+}
+.navi-item2-txt{
+	width: 35.234px;
+	height: 31px;
+	margin-top: 10px;
+	font-size: 14px;
+	font-weight: 700;
+
+}
+
+.navi-item3{
+	width: 59.23px;
+	height: 45px;
+	margin-right: 10px;
+	
+}
+.navi-item3-txt{
+	width: 49.23px;
+	height: 31px;
+	margin-top: 10px;
+	font-size: 14px;
+	font-weight: 700;
+
+}
+
+.navi-item4{
+	width: 56.3px;
+	height: 45px;
+	margin-right: 10px;
+	
+}
+.navi-item4-txt{
+	width: 46.3px;
+	height: 31px;
+	margin-top: 10px;
+	font-size: 14px;
+	font-weight: 700;
+
+}
+
+.navi-item5{
+	width: 54.89px;
+	height: 45px;
+	margin-right: 10px;
+	
+}
+.navi-item5-txt{
+	width: 44.89px;
+	height: 31px;
+	margin-top: 10px;
+	font-size: 14px;
+	font-weight: 700;
+
+}
+
+.navi-item6{
+	width: 59.23px;
+	height: 45px;
+	margin-right: 10px;
+	
+}
+.navi-item6-txt{
+	width: 49.23px;
+	height: 31px;
+	margin-top: 10px;
+	font-size: 14px;
+	font-weight: 700;
+
+}
+.navi-item7{
+	width: 58.39px;
+	height: 45px;
+	margin-right: 10px;
+	
+}
+.navi-item7-txt{
+	width: 48.39px;
+	height: 31px;
+	margin-top: 10px;
+	font-size: 14px;
+	font-weight: 700;
+
+}
+.navi-item8{
+	width: 54.88px;
+	height: 45px;
+	margin-right: 10px;
+	
+}
+.navi-item8-txt{
+	width: 44.88px;
+	height: 31px;
+	margin-top: 10px;
+	font-size: 14px;
+	font-weight: 700;
+
+}
+.navi-item9{
+	width: 47.48px;
+	height: 45px;
+	margin-right: 10px;
+	
+}
+.navi-item9-txt{
+	width: 37.48px;
+	height: 31px;
+	margin-top: 10px;
+	font-size: 14px;
+	font-weight: 700;
+
+}
+.navi-item10{
+	width: 47.48px;
+	height: 45px;
+	margin-right: 10px;
+}
+.navi-item10-txt{
+	width: 37.48px;
+	height: 31px;
+	margin-top: 10px;
+	font-size: 14px;
+	font-weight: 700;
+
+}
+.navi-item11{
+	width: 70.91px;
+	height: 45px;
+	margin-right: 10px;
+}
+.navi-item11-txt{
+	width: 60.91px;
+	height: 31px;
+	margin-top: 10px;
+	font-size: 14px;
+	font-weight: 700;
+
+}
+
+
+
+
+
+
+
+.item-title{
+	font-size: 20px;
+	color: white;
+	font-weight: bold;
+	margin: 10px 0px 0px 10px;
+}
+.item-line{
+	font-size: 20px;
+	color: #55cf5f;
+	font-weight: bold;
+	margin: 10px 0px 0px 10px;
+}
+.item-list{
+	width: 142px;
+	height: 92px;
+	margin: 10px 0px 0px 10px;
+}
+
+.item-list-1{
+	width: 142px;
+	height: 23px;
+	display: flex;	
+}
+.item-list-in{
+	width: 71px;
+	height: 23px;
+	font-size: 12px;
+	color: white;
+}
+
+.item2-out{
+	width: 346px;
+	height: 50px;
+	margin-top: 135px;
+    background: #000;
+    opacity: .3; 
+}
+
+.item2-1{
+	font-size: 12px;
+	color: white;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.item2-2{
+	font-size: 12px;
+	color: white;
+	font-weight: bold;
+	padding-top: 3px;
+	padding-left: 10px;
+}
+
+
+.item1-txt{
+	margin-top: 10px;
+}
+.item1-txt1{
+	font-size: 12px;
+	font-weight: bold;
+}	
+.item1-txt2{
+	font-size: 12px;
+	margin-top: 10px;
+	color: #c4c1bb;
+}
+
+
+
+.main{
+	width: 738px;
+	height: 837px;
+	margin: 0 auto;
+	background-color: white;
+
+}
+.main-line{
+	width: 708px;
+	height: 807px;
+	margin: 15px 0px 0px 15px;
+	background-color: white;
+
+}
+
+.main-1{
+	display: flex;
+	width: 708px;
+	height: 185px;
+	margin: 0px;
+
+}
+
+.main1-item1{
+	width: 166px;
+	height: 185px;
+	margin-right: 7.5px;
+
+	background-image: url("../img/a.png");
+	background-size: 166px 185;
+	
+}
+.main1-item2{
+	width: 346px;
+	height: 185px;
+	margin-right: 7.5px;
+	border: 1px solid silver;
+	background-image: url("../img/b.jpg");
+	background-size: 346px 185px;
+}
+.main1-item3{
+	width: 166px;
+	height: 108px;
+	margin-right: 7.5px;
+
+}
+
+.main-2{
+	display: flex;
+	width: 708px;
+	height: 185px;
+	margin: 20px 0px 0px 0px;
+
+}
+
+.main2-item{
+	width: 166px;
+	height: 185px;
+
+	margin: 0px 12px 19px 0px;
+}
+
+.main2-item-img{
+	width: 166px;
+	height: 108px;
+}
+

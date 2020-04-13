@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Test</title>
+<style>
+
+</style>
+<script type="text/javacvript">
+
+</script>
+</head>
+<body>
+	<div style="color: red; display: inline-block; width: 30%; background-color: lightgray;"><p><h1 style="padding: 100px;">abcd</h1></p></div> 
+	<div style="display: inline-block; width: 40%; border: 10px solid gray; text-align: center; padding: 100px;">
+	<!-- 상위태그에서 가운데 정렬을 지정해보자.
+		 내용물은 모두 텍스트로 간주 되기 때문에 
+		 text-align 속성을 사용하면 된다.
+		 	예]
+		 		왼쪽정렬 : text-align: left;
+		 		오른쪽 정렬 : text-align: right;
+		 		가운데 정렬 : text-align: center;
+	 -->
+	<h2> DIV Test</h2>
+	<span style="display: inline-block; width: 50%; height: 70px; background-color: pink; margin: 30px; margin-bottom: 10px;">abcd1</span><!--
+	이 부분은 화이트 스페이스라고 해서
+	다음 태그에 영향을 주는 공백태그이다.
+	따라서 사이즈가 가로폭에 맞더라도 이 태그가 영향을 주기 때문에 줄바꿈이 되는 경우가 있다. 
+	
+		화이트 스페이스 처리 방법
+			1. 주석으로 공백 모두 제거
+			2. 상위태그의 폰트 사이즈를 0으로 하는 방법
+	 --><span style="display: inline-block; width: 50%; background-color: skyblue; padding: 100px 10px 100px 10px; ">abcd2</span>
+	<span style="display: inline-block; width: 50%; height: 70px; background-color: pink; margin:10px 10px 50px 10px;">abcd1</span><!--
+	 --><span style="display: inline-block; width: 50%; background-color: skyblue; ">abcd2</span>
+	</div> 
+	<!-- 
+		패딩(Padding) : 내용물과 태두리와의 거리
+		마진(Margin) : 주위태그와의 간격
+	 -->
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Test </title>
+<link rel="stylesheet" href="../css/w3.css" />
+<style>
+
+</style>
+<script type="text/javascript">
+	/*
+	'?name=dDragon&tel=010-1111-1111&age=23'
+	 위의 데이터로 파라미터를 받아서 각 파라미터를 분리해서
+	 경고창에 출력하세요.
+	 출력형식 ]
+			
+		이름 : dDragon
+		전화 : 010-1111-1111
+		나이 : 23
+	단 문자열 처리는 slice() 를 사용해서 처리하세요.
+
+        1. 하나씩 처리하는 방법
+
+        2. 반복문으로 처리하는 방법
+	*/
+	
+
+    
+</script>
+</head>
+<body id="info">
+    
+</body>
+<script type="text/javascript">
+    var p1 = location.search;
+
+    var name = p1.slice(p1.indexOf('=') + 1, p1.indexOf('&') );
+    var buff = p1.slice(p1.indexOf('&') + 1);
+    var tel = buff.slice(buff.indexOf('=')+1, buff.indexOf('&'));
+    buff = buff.slice(buff.indexOf('&') + 1);
+    var age = buff.slice(buff.indexOf('=') + 1);
+    alert('이름 : ' + name + '\n전화 : ' + tel + '\n나이 : ' + age);
+    document.getElementById(info).innerHTML = name + tel + age;
+
+</script>
+</html>
